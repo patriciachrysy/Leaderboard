@@ -1,9 +1,9 @@
 export default (player, score, scores) => {
-    let newScore = {
-        playerName: player,
-        playerScore: score
-    }
+  const newScore = {
+    playerName: player,
+    playerScore: score,
+  };
 
-    scores.push(newScore);
-    return scores;
-}
+  scores.push(newScore);
+  return scores;
+};

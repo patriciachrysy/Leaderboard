@@ -18,74 +18,79 @@ h1 {
   margin-left: 20%;
 }
 
-h2{
+h2 {
   font-size: 25px;
 }
 
 main {
-    margin: auto;
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
 }
 
 form {
-    min-height: 150px;
+  min-height: 150px;
 }
 
 ul {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    border: 2px solid black;
-}
-
-ul li:nth-child(even) {
-    background-color: rgb(221, 221, 221);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 2px solid black;
 }
 
 li {
-    list-style: none;
-    padding: 10px;
+  list-style: none;
+  padding: 10px;
 }
 
-.scores-section, .form-section {
-    width: 40%;
+ul li:nth-child(even) {
+  background-color: rgb(221, 221, 221);
 }
 
-.scores-section, .form-section, form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.scores-section,
+.form-section {
+  width: 40%;
+}
+
+.scores-section,
+.form-section,
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .scores-section .header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .form-section input:last-child {
-    width: 30%;
-    align-self: flex-end;
+  width: 30%;
+  align-self: flex-end;
 }
 
-.form-section input:last-child, button {
-    padding: 10px;
-    background-color: white;
-    color: black;
-    font-size: 15px;
-    font-weight: bold;
-    border-radius: 10px;
-    border: 1px solid black;
-    box-shadow: 0 2px 8px rgb(0 0 0 / 50%);
+.form-section input:last-child,
+button {
+  padding: 10px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 50%);
 }
 
-.form-section input:last-child:hover, button:hover {
-    background-color: black;
-    color: white;
-    font-size: 16px;
-    font-weight: bolder;
-    border: 1px solid white;
+.form-section input:last-child:hover,
+button:hover {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  border: 1px solid white;
 }
