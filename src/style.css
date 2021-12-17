@@ -33,6 +33,22 @@ form {
     min-height: 150px;
 }
 
+ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 2px solid black;
+}
+
+ul li:nth-child(even) {
+    background-color: rgb(221, 221, 221);
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
 .scores-section, .form-section {
     width: 40%;
 }

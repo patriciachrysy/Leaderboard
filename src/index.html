@@ -12,7 +12,7 @@
         <div class="scores-section">
             <div class="header">
                 <h2>Recent Scores</h2>
-                <button>Refresh</button>
+                <button id="refresh-button">Refresh</button>
             </div>
             <div class="score-list">
             </div>
@@ -24,10 +24,10 @@
             </div>
 
             <div class="form">
-                <form>
+                <form id="score-form">
                     <input type="text" id="player" placeholder="Your name">
-                    <input type="number" id="score" placeholder="Your score">
-                    <input type="submit" value="submit">
+                    <input type="number" id="score" min='0' placeholder="Your score">
+                    <input type="submit" id="add-score" value="submit">
                 </form>
             </div>
         </div>
