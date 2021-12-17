@@ -2,7 +2,7 @@
 
 > A simple javascript app that helps to add, save and list players and their scores via API calls
 
-![screenshot](./readme_archive.png)
+![screenshot](https://github.com/microverseinc/curriculum-javascript/blob/main/leaderboard/images/leaderboard_wireframe.png)
 
 "Leaderboard" is a simple javascript app that helps to add, save and list players and their scores via API calls.
 
