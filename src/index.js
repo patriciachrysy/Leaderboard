@@ -1,20 +1,7 @@
 import './style.css';
 import addNewScore from './scoreActions.js';
 
-let scores = [
-  {
-    playerName: 'Laure',
-    playerScore: 14,
-  },
-  {
-    playerName: 'Andre',
-    playerScore: 250,
-  },
-  {
-    playerName: 'Stella',
-    playerScore: 400,
-  },
-];
+let scores = [];
 
 const displayScore = (score) => {
   const scoreNode = document.createElement('li');
