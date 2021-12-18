@@ -1,9 +1,11 @@
-export default (player, score, scores) => {
+import { storeScore } from './apiActions.js';
+
+export default async (player, score) => {
   const newScore = {
-    playerName: player,
-    playerScore: score,
+    user: player,
+    score,
   };
 
-  scores.push(newScore);
-  return scores;
+  const message = await storeScore(newScore);
+  return message;
 };
