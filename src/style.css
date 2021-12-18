@@ -63,7 +63,7 @@ form {
 }
 
 .form-section {
-    justify-content: unset !important;
+  justify-content: unset !important;
 }
 
 .scores-section .header {
@@ -100,9 +100,9 @@ button:hover {
 }
 
 .success {
-    color: green;
+  color: green;
 }
 
 .error {
-    color: red;
+  color: red;
 }

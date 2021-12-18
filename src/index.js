@@ -1,6 +1,6 @@
 import './style.css';
 import addNewScore from './scoreActions.js';
-import {fetchScores} from './apiActions.js';
+import { fetchScores } from './apiActions.js';
 
 let scores = [];
 
@@ -30,13 +30,13 @@ const manageForm = () => {
     const playerName = playerNameField.value;
     const playerScore = playerScoreField.value;
     if (playerName.trim().length > 0 && playerScore) {
-      let message = await addNewScore(playerName, playerScore);
+      const message = await addNewScore(playerName, playerScore);
       scoreForm.reset();
       messageSection.innerText = '';
-      if(message) {
-          messageSection.classList.add('success');
-          messageSection.innerText = message;
-      }else{
+      if (message) {
+        messageSection.classList.add('success');
+        messageSection.innerText = message;
+      } else {
         messageSection.classList.add('error');
         messageSection.innerText = 'Error while storing your score';
       }

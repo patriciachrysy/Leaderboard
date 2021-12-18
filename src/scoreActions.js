@@ -1,11 +1,11 @@
-import {storeScore} from './apiActions.js';
+import { storeScore } from './apiActions.js';
 
 export default async (player, score) => {
   const newScore = {
     user: player,
-    score: score,
+    score,
   };
 
-  let message = await storeScore(newScore);
+  const message = await storeScore(newScore);
   return message;
 };
